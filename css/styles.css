@@ -1,0 +1,104 @@
+body {
+  font-family: "Roboto" sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #243E2C;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-brand {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 12px;
+  font-size: 1.5rem;
+}
+
+/* Title */
+#title {
+  background-color: #D6CEBD;
+}
+
+.btn {
+  background-color: #243E2C;
+}
+
+.btn:hover {
+  background-color: #D6CEBD;
+  color: #000000;
+}
+
+.button-icon{
+  padding-right: 3px;
+}
+
+/* Features */
+
+.container {
+  padding: 3% 15%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 3 rem;
+
+}
+
+h3 {
+  font-weight: bold;
+}
+
+#features {
+  padding: 3% 15%;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.25rem;
+}
+
+.icon{
+  color: #243E2C;
+  margin-bottom: 1rem;
+}
+
+/* Testimonials Section */
+#testimonials{
+
+  text-align: center;
+  background-color: #D6CEBD;
+  color: #243E2C;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.cta {
+  background-color: #243E2C;
+  font-family: "Roboto-Bold";
+}
