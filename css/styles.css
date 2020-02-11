@@ -26,7 +26,6 @@ p {
 }
 
 .navbar-brand {
-  font-family: "Roboto";
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -85,12 +84,12 @@ p {
 /* Scoutmaster Letter */
 .scoutmaster-letter {
   padding: 3% 15%;
-  padding-bottom: 0%;
   text-align: left;
 }
 
-.scoutmaster-section-heading{
+.section-heading{
   text-align: center;
+  padding: 3% 15%;
 }
 
 .signature{
@@ -102,4 +101,30 @@ p {
 .cta {
   background-color: #243E2C;
   font-family: "Roboto-Bold";
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+  color: #243E2C;
+}
+
+.social-icon:hover {
+  color: #D6CEBD;
+}
+@media (min-width: 576px) {
+
+  body {
+    font-size: 1.5rem;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .nav-link{
+    text-align: center;
+
 }
