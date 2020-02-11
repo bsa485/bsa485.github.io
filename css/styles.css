@@ -30,7 +30,9 @@ p {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
+.nav-link{
+  text-align: left;
+}
 .nav-item {
   padding: 0 12px;
   font-size: 1.5rem;
