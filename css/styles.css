@@ -1,5 +1,21 @@
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto Slab";
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.25rem;
+}
+
+/* Headings */
+
+.section-heading {
+  font-size: 3rem;
 }
 
 /* Navigation Bar */
@@ -15,7 +31,7 @@ body {
   font-weight: bold;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 12px;
   font-size: 1.5rem;
 }
@@ -34,56 +50,26 @@ body {
   color: #000000;
 }
 
-.button-icon{
+.button-icon {
   padding-right: 3px;
 }
 
 /* Features */
-
-.container {
-  padding: 3% 15%;
-}
-
 .container-fluid {
   padding: 3% 15%;
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 3rem;
+.features-text {
+  font-size: 1.1rem;
+  font-family: "Roboto Condensed";
 }
-
-h2 {
-  font-size: 3 rem;
-
-}
-
-h3 {
-  font-weight: bold;
-}
-
-#features {
-  padding: 3% 15%;
-}
-
-.feature-box {
-  text-align: center;
-}
-
-p {
-  color: #8f8f8f;
-  font-size: 1.25rem;
-}
-
-.icon{
+.icon {
   color: #243E2C;
   margin-bottom: 1rem;
 }
 
 /* Testimonials Section */
-#testimonials{
-
-  text-align: center;
+#testimonials {
   background-color: #D6CEBD;
   color: #243E2C;
 }
@@ -94,10 +80,23 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+/* Scoutmaster Letter */
+.scoutmaster-letter {
+  padding: 3% 15%;
+  padding-bottom: 0%;
+  text-align: left;
 }
 
+.scoutmaster-section-heading{
+  text-align: center;
+}
+
+.signature{
+  padding: 0% 15%;
+  align-items: center;
+};
+
+/* Call to action */
 .cta {
   background-color: #243E2C;
   font-family: "Roboto-Bold";
