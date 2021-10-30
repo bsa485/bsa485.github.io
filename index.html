@@ -1,173 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Scouts BSA Troop 485</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-<head>
-  <meta charset="utf-8">
-  <title>Scouts BSA Troop 485</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/3052c91298.js" crossorigin="anonymous"></script>
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/3052c91298.js" crossorigin="anonymous"></script>
-
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-  <section id="title">
-
-    <!-- Nav Bar -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#">Scouts BSA Troop 485, Westlake Village, CA</a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#footer">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#scoutmaster">Events</a>
-          </li>
-        </ul>
+    <script src="dropdown.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <a href="https://bsa485.com/#" class="nav-text">Scouts BSA Troop 485, Westlake Village, CA</a>
+        <div class="nav-buttons">
+          <a href="#footer" class="nav-hover">Contact</a>
+          <a href="#scoutmaster" class="nav-hover">Events</a>
+        </div>
+        <a class="nav-small-btn"><i class="fa fa-bars nav-small-btn-icon" area-hiddren="true" onclick="navSmallDrop()"></i></a>
+      </div>
+      <div class="nav-small-drop" id="nav-small-drop">
+        <a href="#footer">Contact</a>
+        <a href="#scoutmaster">Events</a>
       </div>
     </nav>
 
-    <!-- Title -->
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <img src="images/scouts_bsa.png" class="center-block" alt="scouts_bsa">
-      </div>
-      <div class="row justify-content-center">
-        <a href="https://www.facebook.com/pg/Troop485/about/"><button type="button" class="btn btn-dark btn-lg" alt="apply"><i class="button-icon fas fa-hiking"></i> Start your adventure.</button></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Features -->
-
-  <section id="features">
-    <div class="container-fluid">
-
-    <div class="row">
-      <div class="feature-box col-lg-4">
-        <i class="icon fas fa-landmark fa-3x"></i>
-        <h3>Since 1976.</h3>
-        <p class="features-text">For Scouts ages 11-17.<br />
-          We meet Monday nights from 7 to 8:30 pm. <br />
-          Westminster Presbyterian Church.<br />
-          32111 Watergate Rd, Westlake Village, CA 91361.</p>
-      </div>
-      <div class="feature-box col-lg-4">
-        <i class="icon far fa-compass fa-3x"></i>
-        <h3>Scout-Led.</h3>
-        <p class="features-text">"Train Scouts to do a job, then let them do it. Never do anything a boy can do." -Sir Robert Baden-Powell</p>
-      </div>
-      <div class="feature-box col-lg-4">
-        <i class="icon fas fa-campground fa-3x"></i>
-        <h3>Be Prepared.</h3>
-        <p class="features-text">Build confidence and self-esteem. <br />
-          Learn life skills and leadership.<br />
-          Be part of something bigger than yourself.</p>
-      </div>
-    </div>
-</div>
-  </section>
-
-
-  <!-- Testimonials -->
-
-  <section id="testimonials">
-
-    <div id="carouselExampleControls" class="carousel slide" data-ride="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
-          <h2>Scouting gives our whole family a way to adventure together and to serve our local community.</h2>
-          <img class="testimonial-image" src='images/tim_profile.png' alt="tim_quote" /><br />
-          <em>Tim K. </br>
-            Agoura Hills, CA</em>
-        </div>
-        <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">I can't wait for our next electronics night.</h2>
-          <img class="testimonial-image" src="images/bash.png" alt="bash_quote"><br />
-          <em>Bash H-K. </br>
-            Agoura Hills, CA</em>
-        </div>
-        <div class="carousel-item container-fluid">
-          <img class="d-block w-100" src="..." alt="Third slide">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+    <div class="adventure-div">
+      <img class="adventure-icon" src="imgs/scouts_bsa.png">
+      <br />
+      <a href="https://www.facebook.com/pg/Troop485/about/" class="adventure-button">
+        <i class="fas fa-hiking"></i> Start your adventure.
       </a>
     </div>
-  </section>
 
-
-  <!-- Letter from the Scoutmaster -->
-
-  <section id="scoutmaster">
-      <div class="scoutmaster-letter col-lg-12 container-fluid">
-        <h3 class="section-heading">Letter from the Scoutmaster</h3>
-        <p>Troop 485 provides young adults the opportunity to experience Scouting in a smaller Troop with many leadership opportunities. The smaller size allows more mentorship between experienced and inexperienced scouts. This model provides
-          frequent
-          teaching and leadership development opportunities as well as the ability to hold many Troop leadership positions (Patrol Leader and Senior Patrol Leader). Rank advancement follows the mentorship so Scouts grow in Scouting rapidly.
-          The Troop has monthly outings as weather permits with approximately 6 camping trips per year as well as a week long trip to a Scout Camp. After one year in Scouting, during the campouts, the boys can setup their own tents, cook their own
-          food, clean their gear and execute a planned activity with minimal supervision.</p>
-        <p>
-          As I was never in Scouting, to see my sons become so independent at the ages of 11 and 12, has been a real eye-opener and made me into a Scouting believer. The basic Scout and leadership skills they learn through Rank Advancement and the
-          advanced technical skills they learn through Merit Badges develops young adults into the antithesis of the perception of the modern millennial. They become capable young adults able to perform at an adult level so they develop confidence
-          and
-          true self-esteem.
-        </p>
-        <p>
-          Beyond the skills, Scouting in Troop 485 develops character with a focus on living the Scout Oath and Scout Law, highlighting these at Scout meetings, Boards of Review and Scoutmaster conferences.
-        </p>
+    <div class="features-div">
+      <div class="feature-div">
+        <img class="feature-img" src="imgs/landmark.png">
+        <h2 class="feature-title">Since 1976.</h2>
+        <p>For Scouts ages 11-17.</p>
+        <p>We meet Monday nights from 7 to 8:30 pm.</p>
+        <p>Westminster Presbyterian Church.</p>
+        <p>32111 Watergate Rd, Westlake Village, CA 91361.</p>
       </div>
-      <div class="signature col-lg-12 container-fluid">
-        <img class="testimonial-image left-block" src='images/scoutmaster.png' alt="scoutmaster" />
+      <div class="feature-div">
+        <img class="feature-img" src="imgs/compass.png">
+        <h2 class="feature-title">Scout-Led.</h2>
+        <p>"Train Scouts to do a job, then let them do it. Never do anything a boy can do." -Sir Robert Baden-Powell</p>
       </div>
-      <div class="signature col-lg-12 container-fluid">
-        <em>Greg Dato<br />
-        Troop 485 Scoutmaster</em>
+      <div class="feature-div">
+        <img class="feature-img" src="imgs/campground.png" />
+        <h2 class="feature-title">Be Prepared.</h2>
+        <p>Build confidence and self-esteem.</p>
+        <p>Learn life skills and leadership.</p>
+        <p>Be part of something bigger than yourself.</p>
+      </div>
+    </div>
+    <div class="slideshow-div">
+      <script src="slideshow.js"></script>
+
+      <div class="slideshow-slide" style="display:block;">
+        <div class="slideshow-text">Scouting gives our whole family a way to adventure together and to serve our local community.</div>
+        <img class="slideshow-icon" src="imgs/tim_profile.png">
+        <div class="slideshow-text slideshow-author">Tim K.</div>
       </div>
 
-  </section>
+      <div class="slideshow-slide">
+        <div class="slideshow-text">I can't wait for our next electronics night.</div>
+        <img class="slideshow-icon" src="imgs/bash_profile.png">
+        <div class="slideshow-text slideshow-author">Bash H-K.</div>
+      </div>
 
+      <div class="slideshow-slide">
+        <div class="slideshow-text">Scouting is a great way for me to go outside on lots of amazing experiences</div>
+        <img class="slideshow-icon" src="imgs/isaac-pic.jpg">
+        <div class="slideshow-text slideshow-author">Isaac H-K.</div>
+      </div>
 
-  <!-- Call to Action -->
-  <section id="cta">
-  </section>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
 
-  <!-- Footer -->
+    <div class="scoutmaster-div" id="scoutmaster">
+      <h1 class="scoutmaster-title">Letter from the Scoutmaster</h1>
+      <div class="scoutmaster-textarea">
+        <p class="scoutmaster-text">Troop 485 provides young adults the opportunity to experience Scouting in a smaller Troop with many leadership opportunities. The smaller size allows more mentorship between experienced and inexperienced scouts. This model provides frequent teaching and leadership development opportunities as well as the ability to hold many Troop leadership positions (Patrol Leader and Senior Patrol Leader). Rank advancement follows the mentorship so Scouts grow in Scouting rapidly. The Troop has monthly outings as weather permits with approximately 6 camping trips per year as well as a week long trip to a Scout Camp. After one year in Scouting, during the campouts, the boys can setup their own tents, cook their own food, clean their gear and execute a planned activity with minimal supervision.</p>
+        <p class="scoutmaster-text">As I was never in Scouting, to see my sons become so independent at the ages of 11 and 12, has been a real eye-opener and made me into a Scouting believer. The basic Scout and leadership skills they learn through Rank Advancement and the advanced technical skills they learn through Merit Badges develops young adults into the antithesis of the perception of the modern millennial. They become capable young adults able to perform at an adult level so they develop confidence and true self-esteem.</p>
+        <p class="scoutmaster-text">Beyond the skills, Scouting in Troop 485 develops character with a focus on living the Scout Oath and Scout Law, highlighting these at Scout meetings, Boards of Review and Scoutmaster conferences.</p>
+      </div>
+      <img class="scoutmaster-icon" src="imgs/scoutmaster_profile.png">
+      <h2 class="scoutmaster-author">Greg Dato</h2>
+      <h2 class="scoutmaster-author">Troop 485 Scoutmaster</h2>
+    </div>
 
-      <footer class="white-section" id="footer">
-        <div class="container-fluid">
-          <a href="https://www.facebook.com/pg/Troop485/about/"><i class="social-icon fab fa-facebook-f"></i></a>
-          <a href="mailto:boyscouts485@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
+    <div class="login-div" id="register">
+      <h1 class="login-title">Login or Create an Account</h1>
+      <form class="register-form" action="/login" method="post">
+        <div class="login-group">
+          <label for="email" class="login-label">Email</label>
+          <input type="email" class="login-area" name="username">
         </div>
-      </footer>
+        <div class="login-group">
+          <label for="email" class="login-label">Password</label>
+          <input type="password" class="login-area" name="password">
+        </div>
+        <center>
+          <button type="submit" class="login-submit">Login</button>
+        </center>
+      </form>
+    </div>
 
-
-
-</body>
-
+    <footer>
+      <a href="https://www.facebook.com/pg/Troop485/about/" class="footer-link"><i class="fab fa-facebook"></i></a>
+      <a href="mailto:boyscouts485@gmail.com" class="footer-link"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+    </footer>
+    <script> </script>
+  </body>
 </html>

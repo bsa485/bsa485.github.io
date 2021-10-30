@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d6cebd;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+  bottom: 0;
+}
+
+.footer-link {
+  margin: 20px;
+}
+
+.footer-link i {
+  color: lightgray;
+  font-size: clamp(22px,4vw,28px);
+}
+
+.footer-link i:hover {
+  color: gray;
+}
+
+.anchor-page{
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 50px;
+}
+.anchor-page:hover{
+  color: lightgray;
+  font-size: 120%;
+}
+
+.div-anchor{
+  background-color: #243E2C;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
