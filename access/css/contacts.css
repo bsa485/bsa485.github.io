@@ -1,0 +1,20 @@
+
+body{
+  background-color: #243E2C;
+}
+
+
+
+/*footer*/
+
+
+.phone-numbers-div{
+  text-align: center;
+  background-color: #243E2C;
+  padding-top: 8px;
+}
+
+.numbers-p{
+  color: white;
+  margin-top: 0;
+}
