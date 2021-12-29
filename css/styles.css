@@ -37,6 +37,21 @@ p {
   font-size: 1.5rem;
 }
 
+.dropdown-menu {
+  background-color: #243E2C;
+}
+
+.dropdown-item {
+  color: rgba(255,255,255,0.6);
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.8);
+}
+
 /* Title */
 #title {
   background-color: #D6CEBD;
