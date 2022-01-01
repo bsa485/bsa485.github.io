@@ -28,7 +28,7 @@
     <!-- Nav Bar -->
 
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#">Scouts BSA Troop 485, Westlake Village, CA</a>
+      <a class="navbar-brand" href="index.html">Scouts BSA Troop 485, Westlake Village, CA</a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,11 +36,17 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#footer">Contact</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contacts
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item nav-item" href="https://www.facebook.com/pg/Troop485/about/">Facebook</a>
+              <a class="dropdown-item nav-item" href="mailto:boyscouts485@gmail.com">Mail</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#scoutmaster">Events</a>
+            <a class="nav-link" href="events.html">Events</a>
           </li>
         </ul>
       </div>
@@ -107,7 +113,10 @@
             Agoura Hills, CA</em>
         </div>
         <div class="carousel-item container-fluid">
-          <img class="d-block w-100" src="..." alt="Third slide">
+          <h2 class="testimonial-text">I enjoy scouting for its cooking.</h2>
+          <img class="testimonial-image" src="images/leo_profile.png" alt="bash_quote"><br />
+          <em>Leo McD </br>
+            Agoura Hills, CA</em>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
